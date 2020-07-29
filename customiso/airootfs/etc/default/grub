@@ -2,7 +2,7 @@
 
 GRUB_DEFAULT=0
 GRUB_TIMEOUT=10
-GRUB_DISTRIBUTOR="Arch"
+GRUB_DISTRIBUTOR="WhyThis"
 GRUB_CMDLINE_LINUX_DEFAULT="quiet loglevel=3 systemd.show_status=false udev.log-priority=3 vt.global_cursor_default=0 splash"
 GRUB_CMDLINE_LINUX=""
 
