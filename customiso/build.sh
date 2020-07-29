@@ -2,10 +2,10 @@
 
 set -e -u
 
-iso_name=archlinux
-iso_label="Arch_$(date +%Y%m)"
-iso_publisher="Arch Linux <http://www.archlinux.org>"
-iso_application="Arch Linux Live/Rescue CD"
+iso_name=WhyThis
+iso_label="WhyThis_$(date +%Y%m)"
+iso_publisher="WhyThis<>"
+iso_application="WhyThis Live/Rescue CD"
 iso_version=$(date +%Y.%m.%d)
 install_dir=arch
 work_dir=work
