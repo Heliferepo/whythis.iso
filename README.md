@@ -42,7 +42,7 @@
 
 + Open the terminal & clone this repo 
 ```bash
-git clone --single-branch --branch master --depth=1 https://github.com/nolifedotsh/whythis.git archlinux
+git clone --single-branch --branch master --depth=1 https://github.com/nolifedotsh/whythis.git whythis
 ```
 
 + After cloning, run *'setup.sh'*, it'll install the dependencies, AUR packages, Fix Permissions, Etc. Be Patient!
@@ -79,6 +79,7 @@ menuentry 'Arch Linux Live' --class arch --class gnu-linux --class linux {
     initrd  (loop)/arch/boot/intel_ucode.img (loop)/arch/boot/x86_64/archiso.img
 }
 
+#Change Arch Linux Live by the name that you want to have when you launch grub and add the path to your iso in isofile
 ```
 <br />
 
