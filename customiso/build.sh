@@ -1,5 +1,15 @@
 #!/bin/bash
 
+if [ -d "work" ]
+then
+    sudo rm -rf work
+fi
+
+if [ -d "out" ]
+then
+    sudo rm -rf out
+fi
+
 set -e -u
 
 iso_name=WhyThis
