@@ -29,7 +29,6 @@ hdparm
 ipw2100-fw
 ipw2200-fw
 irssi
-iwd
 jfsutils
 lftp
 linux-atm
@@ -122,7 +121,6 @@ noto-fonts
 # Openbox
 obconf
 openbox
-arc-gtk-theme
 arc-icon-theme
 
 # Programs
@@ -143,7 +141,6 @@ feh
 ffmpegthumbnailer
 file-roller
 firefox
-fish
 gcc
 geany
 git
