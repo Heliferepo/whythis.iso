@@ -92,3 +92,11 @@ dd bs=4M if=path_to_iso of=/dev/sdX status=progress oflag=sync
 
 **3. Using Etcher -** If you use *Windows*, or maybe linux but afraid of ***dd***, then you can use [Etcher](https://www.balena.io/etcher/) to make a bootable USB/SDcard. More Options [Here](https://wiki.archlinux.org/index.php/USB_flash_installation_media)
 <br />
+
+## Install the OS
+
+**1. Login In the Live -** Username : `liveuser` Password : `liveuser`
+
+**2. (V1) Install with a GUI-** When you have booted into the liveboot launch a terminal type `cd /abif-master && sudo ./abif` and follow the instructions
+
+**2. (V3) Install only with commands lines -** Check the [Arch's Wiki](https://wiki.archlinux.org/index.php/Installation_guide) and follow the instructions
