@@ -1,5 +1,7 @@
 # WhyThis
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5bf70b2e0b66486195f0f71b8aa45cc3)](https://app.codacy.com/gh/nolifedotsh/whythis?utm_source=github.com&utm_medium=referral&utm_content=nolifedotsh/whythis&utm_campaign=Badge_Grade_Dashboard)
+
 ## Features
 
 + Offline Installer - Installable ISO
