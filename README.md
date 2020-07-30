@@ -18,7 +18,6 @@
 + Rofi - Custom Menus, Themes
 + Yay - AUR helper
 + Shell, Vim, Ranger, etc - Configured
-+ eDEX-UI - Optional
 + Pulseaudio - Audio Support
 + Mpd, Mpc, Ncmpcpp - Album Art Support
 + Mplayer - Video Player
