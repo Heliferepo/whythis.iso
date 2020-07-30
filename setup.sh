@@ -36,7 +36,7 @@ echo
 echo
 echo -e $Y" [*] Installing Dependencies - "$C
 echo
-sudo pacman -Sy git archiso --noconfirm
+sudo pacman -Syyyu git glibc archiso pkgconf make cmake --noconfirm
 echo
 echo -e $G" [*] Succesfully Installed."$C
 echo
@@ -183,15 +183,15 @@ echo -e $Y" [*] Setting Up Local Repository - "$C
 echo
 repo-add localrepo.db.tar.gz *
 echo
+echo -e $Y" [*] Making owner ROOT to avoid problems with false permissions."$C
 echo -e $Y" [*] Appending Repo Config in Pacman file - "$C
 echo
-echo "[localrepo]" >> $DIR/customiso/pacman.conf
-echo "SigLevel = Optional TrustAll" >> $DIR/customiso/pacman.conf
-echo "Server = file://$DIR/localrepo/\$arch" >> $DIR/customiso/pacman.conf
+sudo echo "[localrepo]" >> $DIR/customiso/pacman.conf
+sudo echo "SigLevel = Optional TrustAll" >> $DIR/customiso/pacman.conf
+sudo echo "Server = file://$DIR/localrepo/\$arch" >> $DIR/customiso/pacman.conf
 echo
 
 echo
-echo -e $Y" [*] Making owner ROOT to avoid problems with false permissions."$C
 sudo chown -R root:root $DIR/customiso/
 echo
 
