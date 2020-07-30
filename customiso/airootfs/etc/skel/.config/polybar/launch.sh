@@ -7,6 +7,6 @@ killall -q polybar
 while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
 # Launch the bar
-STYLE="forest"
+STYLE="manhattan"
 
 polybar main -c "$HOME"/.config/polybar/"$STYLE"/config.ini &
