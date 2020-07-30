@@ -7,7 +7,7 @@ locale-gen
 
 ln -sf /usr/share/zoneinfo/UTC /etc/localtime
 
-usermod -s /usr/bin/fish root
+usermod -s /usr/bin/zsh root
 #cp -aT /etc/skel/ /root/
 
 ## Liveuser
