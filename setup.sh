@@ -28,12 +28,12 @@ echo -e $B" │   $R┏━┓┏━┓┏━╸╻ ╻   ╻  ╻┏┓╻╻ �
 echo -e $B" │   $R┣━┫┣┳┛┃  ┣━┫   ┃  ┃┃┗┫┃ ┃┏╋┛   $B│"
 echo -e $B" │   $R╹ ╹╹┗╸┗━╸╹ ╹   ┗━╸╹╹ ╹┗━┛╹ ╹   $B│"
 echo -e $B" └──────────────────────────────────┘"
+echo
 echo -e $W"  By:$C nolifedotsh"
 echo -e $W"  Github:$C @nolifedotsh"
 echo
 
 ## Setting Things Up
-echo
 echo -e $Y" [*] Installing Dependencies - "$C
 echo
 sudo pacman -Syyyu git glibc archiso pkgconf make cmake --noconfirm
@@ -189,7 +189,6 @@ echo
 sudo echo "[localrepo]" >> $DIR/customiso/pacman.conf
 sudo echo "SigLevel = Optional TrustAll" >> $DIR/customiso/pacman.conf
 sudo echo "Server = file://$DIR/localrepo/\$arch" >> $DIR/customiso/pacman.conf
-echo
 
 echo
 sudo chown -R root:root $DIR/customiso/
