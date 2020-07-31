@@ -1,15 +1,5 @@
 #!/bin/bash
 
-if [ -d "work" ]
-then
-    sudo rm -rf work
-fi
-
-if [ -d "out" ]
-then
-    sudo rm -rf out
-fi
-
 set -e -u
 
 iso_name=WhyThis
@@ -257,6 +247,22 @@ while getopts 'N:V:L:P:A:D:w:o:g:vh' arg; do
            ;;
     esac
 done
+
+if [ -d "$work_dir" ]
+then
+    echo
+    echo "Removig \$work_dir folder : $work_dir"
+    echo
+    sudo rm -vrf $work_dir
+fi
+
+if [ -d "$out_dir" ]
+then
+    echo
+    echo "Removig \$out_dir folder : "$out_dir" "
+    echo
+    sudo rm -vrf $out_dir
+fi
 
 mkdir -p ${work_dir}
 
