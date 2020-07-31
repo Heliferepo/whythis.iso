@@ -52,3 +52,8 @@ dkms.conf
 
 # Vim
 *.swp
+
+# Builted files
+customiso/work
+customiso/out
+localrepo/
