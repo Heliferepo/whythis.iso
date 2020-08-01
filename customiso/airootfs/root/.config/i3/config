@@ -9,7 +9,7 @@ font pango: Noto Sans 8
 floating_modifier $super
 
 #autostart
-exec --no-startup-id hsetroot -center ~/.config/i3/wallpaper.jpg
+exec --no-startup-id nitrogen ~/.config/i3/wallpaper.jpg
 exec --no-startup-id xsettingsd &
 exec --no-startup-id compton -b
 exec --no-startup-id xfce4-power-manager &
@@ -18,7 +18,7 @@ exec_always --no-startup-id "mpd"
 exec --no-startup-id "sleep 3 && /usr/local/bin/about.sh"
 
 # start a terminal
-bindsym $super+Return exec "termite -c ~/.config/termite/config.i3"
+bindsym $super+Return exec "termite"
 
 # start dmenu (a program launcher)
 bindsym $super+d exec rofi -show drun -drun-display-format "{name}" -theme ~/.config/rofi/themes/search-i3.rasi
