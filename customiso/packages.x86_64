@@ -29,6 +29,7 @@ hdparm
 ipw2100-fw
 ipw2200-fw
 irssi
+iwd
 jfsutils
 lftp
 linux-atm
@@ -42,6 +43,7 @@ mdadm
 mtools
 nano
 ndisc6
+netctl
 nfs-utils
 nilfs-utils
 nmap
@@ -82,36 +84,26 @@ xl2tpd
 xorg-server
 xorg-xbacklight
 xorg-fonts-misc
+xorg-xfd
 xorg-xkill
 xorg-xrandr
 xorg-xrdb
-xorg-xfd
 
-# Intel Drivers
+# Intel GPU
 xf86-video-intel
 
-# Networking
-modemmanager
-mobile-broadband-provider-info
-networkmanager
-network-manager-applet
-usb_modeswitch
+# Amd GPU
+#xf86-video-amdgpu
 
-# LXDE
-leafpad
-lxappearance
-lxappearance-obconf
-lxde-common
-lxdm
-lxmusic
-lxpanel
-lxrandr
-lxsession
-lxtask
-lxterminal
-pcmanfm
-adapta-gtk-theme
-papirus-icon-theme
+# Nvidia GPU
+#xf86-video-nouveau
+
+# Virtualbox GPU
+#xf86-video-nouveau
+
+# Networking
+networkmanager
+nm-connection-editor
 
 # I3
 i3-wm
@@ -121,6 +113,12 @@ noto-fonts
 # Openbox
 obconf
 openbox
+adapta-gtk-theme
+
+# Bspwm
+bspwm
+sxhkd
+arc-gtk-theme
 arc-icon-theme
 
 # Programs
@@ -128,34 +126,29 @@ alsa-plugins
 alsa-tools
 alsa-utils
 atril
-autoconf
-automake
-bind-tools
 binutils
 bmon
-cmatrix
-cowsay
+calc
 dunst
 fakeroot
 feh
+ffmpeg
 ffmpegthumbnailer
-file-roller
-firefox
 gcc
 geany
-git
 gparted
 gtk-engine-murrine
-gtk-engines
-gtk2+extra
 gvfs
 gvfs-mtp
-gvfs-afc
-hsetroot
 htop
 imagemagick
 inetutils
+jq
+leafpad
+lxappearance
+lxdm-gtk3
 make
+midori
 mpc
 mpd
 mplayer
@@ -163,22 +156,21 @@ ncdu
 ncmpcpp
 neofetch
 nitrogen
-nmon
+noto-fonts
 os-prober
 p7zip
 patch
-pavucontrol
+pcmanfm
 pkg-config
+plank
 polkit
-poppler-glib
 pulseaudio
 pulseaudio-alsa
-pulseaudio-equalizer
 pv
 ranger
-rofi
 scrot
 termite
+terminus-font-otb
 thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
@@ -190,13 +182,14 @@ unrar
 unzip
 viewnior
 vim
-w3m
+xarchiver
+xclip
 xdg-user-dirs
 xfce4-power-manager
 xfce4-settings
-xfce4-terminal
-xterm
-zenity
+xmlstarlet
+yad
+zip
 
 ## Virtual Box
 virtualbox-guest-dkms
@@ -204,14 +197,14 @@ virtualbox-guest-utils
 linux-headers
 
 ## AUR
-aurafetch-git
-compton-tryone-git
-i3lock-fancier-git
+colorpicker
+betterlockscreen
 ksuperkey
 networkmanager-dmenu-git
 obmenu-generator
 perl-linux-desktopfiles
-plymouth
 polybar
-rxvt-unicode-pixbuf
+plymouth
 yay
+rofi-git
+compton-tryone-git
