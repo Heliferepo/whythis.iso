@@ -36,7 +36,7 @@ echo
 ## Setting Things Up
 echo -e $Y" [*] Installing Dependencies - "$C
 echo
-sudo pacman -Syyyu git glibc archiso pkgconf make cmake --noconfirm
+sudo pacman -Sy git glibc archiso pkgconf make cmake --noconfirm
 echo
 echo -e $G" [*] Succesfully Installed."$C
 echo
