@@ -6,9 +6,7 @@ function fish_prompt
     # Show the current working directory
     set_color $fish_color_cwd
     echo -n (prompt_pwd)
-    set_color $fish_color_user
     echo -n ' >>> '
-    set_color $fish_color_cwd
     set_color normal
 end
 
@@ -21,7 +19,7 @@ end
 
 ## Window title
 #function fish_title
-#    echo -n 'fish in '
+#    echo -n 'Set Any Title'
 #    prompt_pwd
 #end
 
@@ -53,16 +51,17 @@ set fish_pager_color_prefix cyan
 set fish_pager_color_progress cyan
 
 ## Aliases
-alias l "ls -lh --group-directories-first --color=always"
+alias ls "ls --group-directories-first --color=always"
+alias l "ls -lh --color=always"
 alias la "ls -a --color=always"
-alias ll "ls -alh --color=always"
+alias xx "chmod +x"
 alias grep "grep --color=auto"
 alias xfd "xfd -geometry 1100x700+10+10"
 alias neo "neofetch --config ~/.config/neofetch/config-image.conf --w3m --source auto"
-alias version "pacman -Q"
 alias font-refresh "fc-cache -fv"
 alias clone "git clone --depth 1"
 alias merge "xrdb ~/.Xresources"
+alias version "pacman -Q"
 alias search "pacman -Ss"
 alias install "sudo pacman -Sy"
 alias update "sudo pacman -Syu"
