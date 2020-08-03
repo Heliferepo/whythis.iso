@@ -9,7 +9,7 @@ font pango: Noto Sans 8
 floating_modifier $super
 
 #autostart
-exec --no-startup-id nitrogen ~/.config/i3/wallpaper.jpg
+exec --no-startup-id nitrogen --restore & 
 exec --no-startup-id xsettingsd &
 exec --no-startup-id compton -b
 exec --no-startup-id xfce4-power-manager &

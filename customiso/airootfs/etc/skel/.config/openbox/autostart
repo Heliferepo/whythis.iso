@@ -25,6 +25,3 @@ xfsettingsd &
 
 ## Enable power management
 xfce4-power-manager &
-
-## About
-sleep 4 && /usr/local/bin/about.sh
