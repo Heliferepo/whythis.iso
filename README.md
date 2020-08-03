@@ -102,3 +102,5 @@ dd bs=4M if=path_to_iso of=/dev/sdX status=progress oflag=sync
 **2. (V1) Install with a GUI-** When you have booted into the liveboot launch a terminal type `cd /abif-master && sudo ./abif` and follow the instructions
 
 **2. (V3) Install only with commands lines -** Check the [Arch's Wiki](https://wiki.archlinux.org/index.php/Installation_guide) and follow the instructions
+
+Thanks to [Aditya](https://github.com/adi1090x) that helped a lot for this project
