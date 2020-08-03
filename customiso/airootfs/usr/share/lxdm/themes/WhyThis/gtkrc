@@ -1,3 +1,4 @@
+## These settings are applicable only for lxdm-gtk2+  
 style "back"
 {
 	engine "pixmap"
@@ -17,20 +18,20 @@ style "back"
 style "time"
 {
 	fg[NORMAL]="#ffffff"
-	font_name="Noto Sans 10"
+	font_name="Sans 10"
 }
 
 style "prompt"
 {
 	fg[NORMAL]="#ffffff"
-	font_name="Noto Sans Bold 12"
+	font_name="Sans Bold 12"
 }
 
 # Normally this won't paint an invisible event box, but we did some hacks in greeter.c.
 style "bottom"
 {
-	font_name="Noto Sans 10"
-	fg[NORMAL] = "#9E9D9B"
+	font_name="Sans 10"
+	fg[NORMAL] = "#d9d9d9"
 	engine "pixmap"
 	{
 		image

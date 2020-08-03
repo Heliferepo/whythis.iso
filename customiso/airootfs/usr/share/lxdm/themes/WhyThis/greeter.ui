@@ -8,6 +8,7 @@
       <object class="GtkVBox" id="vbox1">
         <property name="visible">True</property>
         <property name="orientation">vertical</property>
+<!-- Time -->
         <child>
           <object class="GtkLabel" id="time">
             <property name="visible">false</property>
@@ -21,6 +22,7 @@
             <property name="position">0</property>
           </packing>
         </child>
+<!-- Login Image -->
         <child>
           <object class="GtkAlignment" id="alignment1">
             <property name="visible">True</property>
@@ -30,6 +32,7 @@
               <object class="GtkVBox" id="vbox2">
                 <property name="visible">True</property>
                 <property name="orientation">vertical</property>
+<!-- Userlist -->
                 <child>
                   <object class="GtkAlignment" id="alignment2">
                     <property name="visible">True</property>
@@ -58,6 +61,7 @@
                             <property name="can_focus">False</property>
                             <property name="hscrollbar_policy">GTK_POLICY_NEVER</property>
                             <property name="vscrollbar_policy">GTK_POLICY_NEVER</property>
+<!-- Login Box -->
                             <child>
                               <object class="GtkIconView" id="user_list">
                                 <property name="visible">True</property>
@@ -107,6 +111,7 @@
                 <property name="visible">True</property>
                 <property name="border_width">6</property>
                 <property name="spacing">12</property>
+<!-- Sessions -->
                 <child>
                   <object class="GtkHBox" id="sessions_box">
                     <property name="visible">True</property>
@@ -123,8 +128,8 @@
                     </child>
                     <child>
                       <object class="GtkLabel" id="label2">
-                        <property name="visible">True</property>
-                        <property name="label" translatable="yes"></property>
+                        <property name="visible">False</property>
+                        <property name="label" translatable="yes">Desktop </property>
                       </object>
                       <packing>
                         <property name="expand">False</property>
@@ -147,6 +152,7 @@
                     <property name="position">0</property>
                   </packing>
                 </child>
+<!-- Language -->
                 <child>
                   <object class="GtkHBox" id="lang_box">
                     <property name="visible">True</property>
@@ -163,7 +169,7 @@
                     </child>
                     <child>
                       <object class="GtkLabel" id="label_lang">
-                        <property name="visible">True</property>
+                        <property name="visible">False</property>
                         <property name="label" translatable="yes">Language </property>
                       </object>
                       <packing>
@@ -187,6 +193,49 @@
                     <property name="position">1</property>
                   </packing>
                 </child>
+<!-- Keyboard -->
+                <child>
+                  <object class="GtkHBox" id="key_box">
+                    <property name="visible">True</property>
+                    <property name="spacing">6</property>
+                    <child>
+                      <object class="GtkImage" id="image4">
+						<!--If keyboard is enabled, change visibility to 'True' for icon-->
+                        <property name="visible">False</property>
+                        <property name="pixbuf">keyboard.svg</property>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="position">0</property>
+                      </packing>
+                    </child>
+					<child>
+                      <object class="GtkLabel" id="label_keyboard">
+                        <property name="visible">False</property>
+                        <property name="label" translatable="yes"></property>
+					  </object>
+					  <packing>
+                        <property name="expand">False</property>
+                        <property name="position">2</property>
+					  </packing>
+					</child>
+                    <child>
+                      <object class="GtkComboBoxEntry" id="keyboard">
+                        <property name="text_column">0</property>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="position">3</property>
+                      </packing>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="position">2</property>
+                  </packing>
+                </child>
+
+<!-- Keyboard Default 
                 <child>
                   <object class="GtkLabel" id="label_keyboard">
                     <property name="label" translatable="yes">Keyboard </property>
@@ -205,6 +254,8 @@
                     <property name="position">3</property>
                   </packing>
                 </child>
+-->
+<!-- Exit -->
                 <child>
                   <object class="GtkButton" id="exit">
                     <!--<property name="label">gtk-quit</property>-->
