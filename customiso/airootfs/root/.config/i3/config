@@ -21,7 +21,7 @@ exec --no-startup-id "sleep 3 && /usr/local/bin/about.sh"
 bindsym $super+Return exec "termite"
 
 # start dmenu (a program launcher)
-bindsym $super+d exec rofi -show drun -drun-display-format "{name}" -theme ~/.config/rofi/themes/search-i3.rasi
+bindsym $super+d exec rofi -show drun -drun-display-format "{name}" -theme ~/.config/rofi/scripts/search.sh
 bindsym $super+Shift+d exec rofi -config ~/.config/rofi/themes/config.simple -show drun -display-drun 'Apps ' -drun-display-format '{name}' -padding 18 -width 30 -location 0 -lines 10 -columns 2 -show-icons -icon-theme 'Papirus' -font 'Noto Sans 8'
 
 # common apps keybinds
