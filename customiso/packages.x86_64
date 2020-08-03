@@ -129,7 +129,12 @@ atril
 binutils
 bmon
 calc
+code
+discord
+docker
+docker-compose
 dunst
+emacs
 fakeroot
 feh
 ffmpeg
@@ -195,6 +200,9 @@ zip
 virtualbox-guest-dkms
 virtualbox-guest-utils
 linux-headers
+
+# Gnome
+gnome
 
 ## AUR
 colorpicker
