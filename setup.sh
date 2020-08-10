@@ -37,7 +37,7 @@ echo
 ## Setting Things Up
 echo -e $Y"[*] Installing Dependencies - "$C
 echo
-sudo pacman -Sy git archiso --noconfirm
+sudo pacman -Sy git archiso bison mkinitcpio mkinitcpio-archiso edk2-shell --noconfirm
 echo
 echo -e $G"[*] Succesfully Installed."$C
 echo

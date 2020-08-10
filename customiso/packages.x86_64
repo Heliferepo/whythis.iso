@@ -139,6 +139,7 @@ fakeroot
 feh
 ffmpeg
 ffmpegthumbnailer
+firefox
 gcc
 geany
 gparted
@@ -200,9 +201,6 @@ zip
 virtualbox-guest-dkms
 virtualbox-guest-utils
 linux-headers
-
-# Gnome
-gnome
 
 ## AUR
 colorpicker
