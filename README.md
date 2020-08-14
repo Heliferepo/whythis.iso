@@ -1,6 +1,6 @@
 # WhyThis
 
-![Release State](http://img.shields.io/badge/Profile%20Release-v1.1-green)
+![Release State](http://img.shields.io/badge/Current%20Release-v1.1-green)
 ![Build AMD](http://img.shields.io/badge/AMD%20Build-Passed-green)
 ![Build Intel](http://img.shields.io/badge/Intel%20Build-Issues%20known%20with%20Xorg-critical)
 ![Mirror State](http://img.shields.io/badge/Mirror%20State-Slightly%20out%20of%20date-important)
