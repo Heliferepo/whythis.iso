@@ -2,6 +2,12 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/5bf70b2e0b66486195f0f71b8aa45cc3)](https://app.codacy.com/gh/nolifedotsh/whythis?utm_source=github.com&utm_medium=referral&utm_content=nolifedotsh/whythis&utm_campaign=Badge_Grade_Dashboard)
 
+## Disclaimer
+
+abif program might  not be fully compatible with Windows and you might need to create the boot entry for Windows in Dual Boot
+
+I abandonned GNOME as it was a pain to maintain it is still in the v1.0 No Gnome Rice is stable but a pain to rice please consider building yourself the iso with v1.1 Release and adding GNOME with `sudo pacman -Sy Gnome` after installing the iso on the machine if you want it
+
 ## Features
 
 +  Offline Installer - Installable ISO
