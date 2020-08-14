@@ -1,6 +1,13 @@
 # WhyThis
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5bf70b2e0b66486195f0f71b8aa45cc3)](https://app.codacy.com/gh/nolifedotsh/whythis?utm_source=github.com&utm_medium=referral&utm_content=nolifedotsh/whythis&utm_campaign=Badge_Grade_Dashboard)
+![Release State](http://img.shields.io/badge/Profile%20Release-v1.1-green)
+![Build AMD](http://img.shields.io/badge/AMD%20Build-Passed-green)
+![Build Intel](http://img.shields.io/badge/Intel%20Build-Issues%20known%20with%20Xorg-critical)
+![Mirror State](http://img.shields.io/badge/Mirror%20State-Slightly%20out%20of%20date-important)
+
+![i3 Support](http://img.shields.io/badge/i3%20Support-Constantly%20Active-blue)
+![Openbox Support](http://img.shields.io/badge/Openbox%20Support-Constantly%20Active-blue)
+![Gnome Support](http://img.shields.io/badge/Gnome%20Support-Abandonned-inactive)
 
 ## Disclaimer
 
